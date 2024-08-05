@@ -7,6 +7,8 @@ I started out with acquiring data about the **total attendances** and **total em
 
 I then acquired another dataset that took into account **55** different aspects that contributes to the cost of living. The following features were involved in this dataset:
 
+-----
+
 **x1	Meal, Inexpensive Restaurant (USD)**
 
 **x2	Meal for 2 People, Mid-range Restaurant, Three-course (USD)**
@@ -117,6 +119,8 @@ I then acquired another dataset that took into account **55** different aspects 
 
 **x55	Mortgage Interest Rate in Percentages (%), Yearly, for 20 Years Fixed-Rate**
 
+-----
+
 Finally, due to a growing suspicion amongst junior doctors that changes in weather conditions, especially rain, causes an increase in visits to the hospital, I set out to acquire a publically available dataset from the MET office and averaged their data from many different cities in the UK provided by 5 of their weather stations.
 
 I then merged the three datasets by using various functionalities in Excel such as XLOOKUPs and AVERAGEIFs to merge the NHS, weather and cost of living datasets together.
@@ -127,6 +131,9 @@ After finishing preprocessing and cleaning all these datasets I set out to first
 
 Here we can see that the weather makes no difference to the amount of visits and attendances made to the hospital. Therefore, this growing suspicion amongst the junior doctors is simply false.
 
+
+-----
+
 We can also see a significant (compared to other variables in this heatmap) positive correlation between x3 and average hospital attendances and average emergency hospital attendances of 0.40 and 0.46 respectively. Normally, this relationship would mean that the greater the expenditure on fast food restaurant chains, the greater the impact on the NHS as fast food is notoriously unhealthy. 
 
 This relationship could also mean that places with higher meal prices and expenditure will tend to be indicative of more urbanised cities where healthcare structure will be more developed, e.g. London.
@@ -134,6 +141,9 @@ This relationship could also mean that places with higher meal prices and expend
 Cities where McDonald's meals are more expensive may have a higher overall cost of living. These cities might also have better healthcare facilities and access, leading to higher healthcare attendance rates.
 
 In economically prosperous areas, residents may have higher incomes, allowing them to afford both higher-priced meals and better healthcare services.
+
+
+-----
 
 Addtionally, we can also see another relationship which consists of a negative correlation between the attendances in the hospital and x52 and x53. This could be described due to the following reasons: 
 
@@ -143,7 +153,10 @@ The negative correlation could indicate that as housing prices rise, the residen
 
 Urban centers with high property prices might invest more in public health initiatives and infrastructure. Better urban planning can reduce the need for emergency services by improving overall health and safety conditions.
 
-Another unexpected insights would a moderate positive correlation between cappucino prices and hospital attendances - with the correlations of 0.23 and 0.22 respectively. This relationship can be explained due to the following reasons: 
+
+-----
+
+Another unexpected insight would a moderate positive correlation between cappucino prices and hospital attendances - with the correlations of 0.23 and 0.22 respectively. This relationship can be explained due to the following reasons: 
 
 --> Higher cappuccino prices are typically found in more affluent neighborhoods. These areas often have vibrant social scenes with frequent social interactions, meetings, and gatherings in cafes.
 
