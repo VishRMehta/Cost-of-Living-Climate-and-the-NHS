@@ -3,7 +3,9 @@
 
 I was assigned this project by a junior doctor in midst of talks about their wages with the government hopelessly ending in frustration nearly everytime. I was tasked with investigating how many different factors which contribute to the cost of living for a person impacts the NHS.
 
-I started out with acquiring data about the **total attendances** and **total emergency** attendences across all NHS hospitals in the UK by going to the NHS website.
+I started out with acquiring data about the **total attendances** and **total emergency** attendences across all NHS hospitals in the UK by going to the NHS website. Here is an illustration of the dataset:
+
+![SS2](https://github.com/VishRMehta/Cost-of-Living-Climate-and-the-NHS/blob/main/nhs-images/Screenshot%202024-08-06%20at%2022.14.34.png)
 
 I then acquired another dataset that took into account **55** different aspects that contributes to the cost of living. The following features were involved in this dataset:
 
@@ -121,20 +123,36 @@ I then acquired another dataset that took into account **55** different aspects 
 
 -----
 
+Here is an illustration of the cost of living dataset:
+
+![SS1](https://github.com/VishRMehta/Cost-of-Living-Climate-and-the-NHS/blob/main/nhs-images/Screenshot%202024-08-06%20at%2022.15.34.png)
+
 Finally, due to a growing suspicion amongst junior doctors that changes in weather conditions, especially rain, causes an increase in visits to the hospital, I set out to acquire a publically available dataset from the MET office and averaged their data from many different cities in the UK provided by 5 of their weather stations.
+
+Here is an illustration of the MET Office weather office dataset:
+
+![SS3](https://github.com/VishRMehta/Cost-of-Living-Climate-and-the-NHS/blob/main/nhs-images/Screenshot%202024-08-06%20at%2022.13.28.png)
 
 I then merged the three datasets by using various functionalities in Excel such as XLOOKUPs and AVERAGEIFs to merge the NHS, weather and cost of living datasets together.
 
+Here is an illustration of the fully merged dataset:
+
+![SS4](https://github.com/VishRMehta/Cost-of-Living-Climate-and-the-NHS/blob/main/nhs-images/Screenshot%202024-08-06%20at%2022.16.01.png)
 
 After finishing preprocessing and cleaning all these datasets I set out to first get a bird's eye view across all the variables in my dataset and to essentially quickly eyeball relationships between different features by plotting out a heatmap of correlations between average normal and emergency attendances to variables in the cost of living dataset and the weather dataset.
 
+![SS5](https://github.com/VishRMehta/Cost-of-Living-Climate-and-the-NHS/blob/main/nhs-images/Screenshot%202024-08-06%20at%2022.12.27.png)
 
-Here we can see that the weather makes no difference to the amount of visits and attendances made to the hospital. Therefore, this growing suspicion amongst the junior doctors is simply false.
+Here we can see that the weather variables makes no difference to the amount of visits and attendances made to the hospital. All have extremely small and insignificant correlations as shown by the last 5 rows of the heatmap. Therefore, this growing suspicion amongst the junior doctors is simply false.
 
 
 -----
 
 We can also see a significant (compared to other variables in this heatmap) positive correlation between x3 and average hospital attendances and average emergency hospital attendances of 0.40 and 0.46 respectively. Normally, this relationship would mean that the greater the expenditure on fast food restaurant chains, the greater the impact on the NHS as fast food is notoriously unhealthy. 
+
+![SS6](https://github.com/VishRMehta/Cost-of-Living-Climate-and-the-NHS/blob/main/nhs-images/Screenshot%202024-08-06%20at%2022.07.56.png)
+
+![SS7](https://github.com/VishRMehta/Cost-of-Living-Climate-and-the-NHS/blob/main/nhs-images/Screenshot%202024-08-06%20at%2022.08.28.png)
 
 This relationship could also mean that places with higher meal prices and expenditure will tend to be indicative of more urbanised cities where healthcare structure will be more developed, e.g. London.
 
@@ -145,7 +163,11 @@ In economically prosperous areas, residents may have higher incomes, allowing th
 
 -----
 
-Addtionally, we can also see another relationship which consists of a negative correlation between the attendances in the hospital and x52 and x53. This could be described due to the following reasons: 
+Addtionally, we can also see another relationship which consists of a negative correlation between the attendances in the hospital and x52 and x53.
+
+![SS8](https://github.com/VishRMehta/Cost-of-Living-Climate-and-the-NHS/blob/main/nhs-images/Screenshot%202024-08-06%20at%2022.08.39.png)
+
+This could be described due to the following reasons: 
 
 Higher property prices, both in city centers and outside, often reflect a wealthier population or higher economic status. In affluent areas, individuals might have better access to private healthcare services, reducing reliance on emergency services provided by public health systems. People with higher incomes might also be more proactive about health care, leading to fewer emergency admissions.
 
