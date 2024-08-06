@@ -167,6 +167,8 @@ Addtionally, we can also see another relationship which consists of a negative c
 
 ![SS8](https://github.com/VishRMehta/Cost-of-Living-Climate-and-the-NHS/blob/main/nhs-images/Screenshot%202024-08-06%20at%2022.08.39.png)
 
+![SS9](https://github.com/VishRMehta/Cost-of-Living-Climate-and-the-NHS/blob/main/nhs-images/Screenshot%202024-08-06%20at%2022.42.12.png)
+
 This could be described due to the following reasons: 
 
 Higher property prices, both in city centers and outside, often reflect a wealthier population or higher economic status. In affluent areas, individuals might have better access to private healthcare services, reducing reliance on emergency services provided by public health systems. People with higher incomes might also be more proactive about health care, leading to fewer emergency admissions.
@@ -175,10 +177,38 @@ The negative correlation could indicate that as housing prices rise, the residen
 
 Urban centers with high property prices might invest more in public health initiatives and infrastructure. Better urban planning can reduce the need for emergency services by improving overall health and safety conditions.
 
+-----
+
+There is also a negative correlation between the price for daycare for 1 child and the amount of emergency attendances in the NHS. 
+
+![SS10](https://github.com/VishRMehta/Cost-of-Living-Climate-and-the-NHS/blob/main/nhs-images/Screenshot%202024-08-06%20at%2022.43.25.png)
+
+An increase in the price of full-day, private preschool for one child could potentially decrease emergency NHS admissions for several reasons:
+
+--> Higher costs might lead to selective enrollment where only families with sufficient financial resources can afford private preschool. These families may also have better access to healthcare, preventative measures, and healthier lifestyles, leading to fewer emergency admissions.
+
+--> Higher costs may reduce the overall number of children enrolled in full-day private preschools. Consequently, children might stay home where they are less exposed to infectious diseases and injuries that can occur in group settings, thereby potentially reducing emergency admissions.
+
+--> When parents cannot afford private preschool, they might opt to stay home or adjust their work schedules to take care of their children. Increased parental involvement can lead to better monitoring of children’s health and quicker responses to minor illnesses or injuries before they escalate to emergencies.
+
+--> Families that can afford higher preschool fees might also have better access to regular and preventative healthcare for their children. This can result in early detection and treatment of health issues, reducing the need for emergency care.
+
+--> Higher preschool costs can indicate better overall socioeconomic conditions for families who can afford it. Higher socioeconomic status is often associated with better health outcomes and lower emergency healthcare needs due to factors like better nutrition, safer living environments, and comprehensive health insurance coverage.
+
+--> Families paying higher preschool fees might prioritize health and safety standards more rigorously, choosing facilities with better healthcare policies, safer environments, and lower student-to-teacher ratios, reducing the likelihood of accidents or health issues that necessitate emergency care.
+
+--> A focus on higher-cost preschools might lead to more resources being allocated towards quality early childhood education, including health and safety measures, thereby reducing the risk of emergencies.
 
 -----
 
-Another unexpected insight would a moderate positive correlation between cappucino prices and hospital attendances - with the correlations of 0.23 and 0.22 respectively. This relationship can be explained due to the following reasons: 
+Another unexpected insight would a moderate positive correlation between cappucino prices and hospital attendances - with the correlations of 0.23 and 0.22 respectively. 
+
+![SS12](https://github.com/VishRMehta/Cost-of-Living-Climate-and-the-NHS/blob/main/nhs-images/Screenshot%202024-08-06%20at%2023.00.52.png)
+
+![SS11](https://github.com/VishRMehta/Cost-of-Living-Climate-and-the-NHS/blob/main/nhs-images/Screenshot%202024-08-06%20at%2023.00.46.png)
+
+
+This relationship can be explained due to the following reasons: 
 
 --> Higher cappuccino prices are typically found in more affluent neighborhoods. These areas often have vibrant social scenes with frequent social interactions, meetings, and gatherings in cafes.
 
@@ -188,7 +218,11 @@ Another unexpected insight would a moderate positive correlation between cappuci
 
 --> Thus, the price of cappuccino can act as a proxy for the level of social activity and interaction in an area. Higher cappuccino prices, indicating a socially active and affluent area, correlate with higher emergency admissions due to the lifestyle-related health impacts of these social behaviors.
 
+-----
+
 Furthermore, we can see that when we sum all the aspects that may contribute to the cost of living of one person, there is a mild correlation after we remove a few outliers and then standardise values to make sure that every feature has an equal say in the results.
+
+![SS13](https://github.com/VishRMehta/Cost-of-Living-Climate-and-the-NHS/blob/main/nhs-images/Screenshot%202024-08-06%20at%2022.16.44.png)
 
 The result is a mild negative correlation, which is a finding that supports many numerous articles about how cost of living negatively impacts the NHS but based on the plot we perhaps may need to work harder and delve deeper to uncover a slightly stronger relationship as our R2 score is relatively low which is suprising given the sheer amalagamation of factors we have undertaken.
 
